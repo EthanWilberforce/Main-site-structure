@@ -11,7 +11,11 @@ a {
     color:inherit;
 }
 img {
-    box-shadow: 5px 5px 5px #888888;
+  box-shadow: 5px 5px 5px #888888;
+}
+iframe {
+  box-shadow: 5px 5px 5px #888888;
+  text-align:center;
 }
 
 
@@ -36,6 +40,7 @@ img {
     font-size: 24px;
     line-height: 38px;
   }
+
 .sel{
   font: 25px Arial;
   color: #FFFFFF;
@@ -63,10 +68,6 @@ img {
   padding:20px;
 }
 
-.contact {
-  text-align:right;
-}
-
 .extender {
   height:500px;
 }
@@ -75,7 +76,20 @@ img {
   font: 12px Arial;
 }
 
+.end1 {
+  height:120px;
+}
+.end2 {
+  height:320px;
+}
+
   @media only screen and (max-width : 1025px){
+    .end1{
+      height:0px;
+    }
+    .end2{
+      height:0px;
+    }
     .image{
       text-align:center;
     }
