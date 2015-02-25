@@ -3,7 +3,7 @@ ul {
   list-style-position:inside;
 }
 body {
-    font:20px Arial;
+    font:30px Arial;
     background:#E8E8EE;
     padding:0px;
 }
@@ -17,7 +17,9 @@ iframe {
   box-shadow: 5px 5px 5px #888888;
   text-align:center;
 }
-
+.proj {
+  font:20px Arial;
+}
 
 .title {
     font: 50px Arial;
