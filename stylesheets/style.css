@@ -3,9 +3,9 @@ ul {
   list-style-position:inside;
 }
 body {
-    font:20px 'Helvetica Neue';
-    background:#E8E8EE;
-    padding:0px;
+  font:20px 'Arial';
+  background:#E8E8EE;
+  padding:0px;
 }
 a {
     color:inherit;
@@ -116,5 +116,4 @@ iframe {
       height:25px;
       margin-bottom:3px;
     }
-    .image
   }
