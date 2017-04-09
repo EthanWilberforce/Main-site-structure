@@ -1,0 +1,71 @@
+* {margin:0px;padding:0px;}
+ul {
+  list-style-position:inside;
+}
+body {
+    font:20px Arial;
+    font-color: white;
+    background:black;
+    padding:0px;
+    text-align:center;
+}
+p {
+  display:inline;
+}
+.smallw {
+  font: 30px Arial;
+  text-align:left;
+  margin-left:10%;
+  color: #d3d3d3;
+}
+
+.words {
+  font: 30px Arial;
+  color: #d3d3d3;
+}
+.swords{
+  font: 90px Arial;
+  color: #d3d3d3;
+}
+
+.content {
+  font:100px Arial;
+  height:100vh;
+  width:100%;
+  color: #d3d3d3;
+  text-align:center;
+  margin-bottom:-10px;
+  line-height: 80px;
+  padding-left: 12px;
+  margin-bottom: 20px;
+}
+
+.vert {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+  @media only screen and (max-width : 1024px){
+    .content {
+      font:70px Arial;
+      text-align:center;
+    }
+    .swords {
+      font:60px Arial;
+    }
+    .words {
+      font:40px Arial;
+    }
+  }
+  @media only screen and (max-width : 767px) {
+    .content{
+      font:70px Arial;
+    }
+    .words{
+      font:25px Arial;
+    }
+    .vert {
+      top:15%;
+    }
+  }
