@@ -25,8 +25,7 @@ iframe {
     color: #FFFFFF;
     border:0px solid green;
     margin-top:10px;
-    margin-bottom:50px;
-    height:50px;
+    /*height:50px;*/
 }
 
 .splash {
@@ -51,7 +50,7 @@ iframe {
   margin-bottom:50px;
   padding:10px;
   text-align:right;
-  background: #3C3C3C;
+  /*background: #3C3C3C;*/
   text-decoration:none;
 }
 
@@ -84,6 +83,7 @@ iframe {
 }
 
 .serviceContainer {
+  margin-top: 5px;
   margin-bottom: 10px;
   background-color: lightgrey;
   padding: 10px 10px 10px 10px;
@@ -98,39 +98,17 @@ iframe {
   font: 12px Arial;
 }
 
-  @media only screen and (max-width : 1025px){
-    .image{
-      text-align:center;
-    }
-    .title {
-      text-align:center;
-      margin-bottom: 25px;
-    }
-    .sel {
-      margin-top:0px;
-      padding:0px;
-      margin:0px;
-      text-align:center;
-      font:20px Arial;
-      height:25px;
-      margin-bottom:3px;
-    }
+@media only screen and (max-width : 1025px){
+  .image{
+    text-align:center;
   }
-  @media only screen and (max-width : 767px) {
-    .title {
-      text-align: center;
-      padding-left: 0px;
-      font:30px Arial;
-      line-height: 60px;
-      margin-bottom:25px;
-    }
-    .sel {
-      margin-top:0px;
-      padding:0px;
-      margin:0px;
-      text-align:center;
-      font:20px Arial;
-      height:25px;
-      margin-bottom:3px;
-    }
+  .title {
+    margin-bottom: 5px;
   }
+  .title::before{
+    content:'<h1>Test</h1>'
+  }
+  .sel {
+    display:none;
+  }
+}
