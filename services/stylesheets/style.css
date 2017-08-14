@@ -85,6 +85,13 @@ iframe {
 
 .serviceContainer {
   margin-bottom: 10px;
+  background-color: lightgrey;
+  padding: 10px 10px 10px 10px;
+  /*border-radius: 5px;*/
+}
+
+.serviceContainer:hover {
+  background-color: grey;
 }
 
 #languages {
